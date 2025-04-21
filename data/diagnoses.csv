@@ -1,0 +1,105 @@
+diagnosis_id,patient_id,diagnosis_date,icd10_code,histology,diagnosis_description
+2ed07a50-4167-47b2-9e92-53e8b3d02213,d252609e-735d-4a11-b4ea-88e01407be45,2021-02-03,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+b63f736c-4adf-4d78-80c9-53206fbdc188,be0cf94e-cb98-4374-8378-2df4137a84c7,2018-10-16,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+a95ed899-0b31-43ec-851f-0d993090cad7,aea9a633-4278-4b49-bff2-87e47f47256d,2022-02-27,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+a8f592e9-0971-42fb-9d3d-84446176558a,78a291e8-119a-4b50-afc2-df611e3e1cc1,2021-10-22,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+c2488f49-fa08-4fd9-9531-875bab598c2f,159eee78-a50b-48e1-996b-65f16b2f0b42,2019-05-25,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+d042332f-cfaf-4400-8a99-40fc3f58f66f,21a21cfb-9578-48fe-b8b4-694160be2908,2022-01-10,C34.1,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+df70019c-7c4a-4704-a424-e0b6db1a9f2f,fc6fbcbb-88ae-488d-8029-5f89224fc467,2021-05-04,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+93876312-c29c-4167-aaee-7c1b2f0d4804,1f0f1110-796e-46ed-8899-7bed9f8883be,2018-02-02,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+5a8e8be0-7056-4773-9f8b-c1ebd2bb2d0d,27cba168-a4ca-4641-b3ec-965490ec6251,2020-05-04,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+a578ac7d-d69c-4683-8535-770f008220bd,9ec77d27-7a6b-4d4a-84d8-26eb7b923a57,2021-07-11,C34.1,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+0e8122d4-3ea7-4f79-9828-b6790d921f1a,1f3852f3-e0a5-4a81-b0a6-28a25fd10d1a,2022-03-25,C34.1,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+46be9355-d6ab-4e7f-8a09-bf87c2977597,f8eb4d2f-cf1d-4129-adf0-ba9a35b143e0,2022-05-25,C34.1,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+b568166c-ccb8-4da6-b075-c80333895be2,66236c8e-acd7-460c-a5e3-f7debcc6fb42,2021-10-08,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+d444a063-b156-4cc4-be08-479272520a5b,48fe98f7-7633-4543-9bcb-69620f78c895,2021-10-11,C34.1,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+3a5a345b-3381-4ff2-b9a6-8d9987551e48,9233aee8-841c-4424-b75f-386d84a09bbd,2018-01-06,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+d82214b6-eeff-401b-86df-e060a1d5922e,45254641-3f4c-4d63-b745-83944fd9ed2c,2020-11-25,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+dcdc215e-47a2-47a5-9820-35e953831dfd,ea805203-975f-4f4d-bc53-7d0dbff1156d,2020-01-30,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+fc70a5b8-ae24-4d36-8345-94f498b76dff,f11f286a-32b6-4b03-b235-e1189002dd6f,2020-03-06,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+7afb0d0f-b56b-40ca-bf4f-dd87258d85c4,a7184cd3-41c7-4f2e-b9b0-aa827084ba9d,2019-10-04,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+29975146-ea9c-4d45-be8b-0299411b30a2,fd56191c-fb71-4eb9-98b9-3c810cb3b97f,2021-08-19,C34.1,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+7c39e040-633c-4168-b6d7-65c7787bee26,2d6ccee9-185d-4a3d-b369-3dce3d51f165,2020-10-25,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+23000ccd-e729-400d-b479-cb8c06e5aa6a,2eaa0a25-51b8-471d-a02d-887c57e451a2,2021-10-13,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+19a8fbda-c60b-4a35-9664-cd5cb7c29a4f,ed7e0fd2-7ec2-407a-bdf1-6c25ec489997,2022-02-19,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+0eddbc40-8c08-4c88-9b62-1f7942b8de8b,428fcc7e-b9d3-47a5-bb62-ee6e2ea63763,2022-03-20,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+90eafe31-4600-4544-93a8-d586c46aa468,76581b0c-7269-40d2-88ad-139bedda4a1e,2020-09-26,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+9669e2a3-2768-4b16-ac59-aa9a40487fc4,62638c56-dd4a-4b47-88f6-e9937630d1d3,2021-01-03,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+26aad1aa-ad69-4b35-bde6-91db849cf9bd,b22ede4f-6c9e-4980-8de9-bb567d2d2a8d,2020-07-06,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+e199149c-b0d2-4a16-b58c-44efb95d2ea3,ee950d03-577f-4501-bb7d-c8dc95e002ee,2021-10-03,C34.9,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+9bda2797-1dd3-407a-a1a7-75183ed1e33c,4dd91e5a-6efd-4be7-bc7f-d26284de3129,2018-08-08,C34.3,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+2cefc028-63c3-4203-9313-25bd9f8b1358,7391428f-c174-4a1a-ad38-b3f1bf2e0541,2022-02-02,C34.1,Non-Small Cell Carcinoma,"Lung Cancer, NSCLC"
+b6ddb83f-3e3b-410f-a298-30e64a44cf5c,110dc02a-0050-4e5e-aad1-ee9ead72b671,2019-07-30,C19,Adenocarcinoma,Colorectal Cancer
+18eb009b-4e2e-4eef-9153-c0637edc5ee9,5fbde32c-ec12-4637-bb48-0ef3fc820e1b,2022-12-01,C19,Adenocarcinoma,Colorectal Cancer
+710f2778-e7f4-4967-9412-13a890c7f087,725da917-c552-4a8d-a31f-458702174a48,2018-05-18,C18.7,Adenocarcinoma,Colorectal Cancer
+b16a7430-fcf8-47ec-af2b-cccb32812b87,c1503a1a-1b09-458f-8562-21f3b4fb8898,2021-07-04,C18.7,Adenocarcinoma,Colorectal Cancer
+998165d6-fa17-4083-8389-d1756adb9f64,f5c7aeab-2d23-43a6-a6d6-c566fe5385ee,2019-09-28,C18.7,Adenocarcinoma,Colorectal Cancer
+8b3b5b9c-2e94-453c-b1ff-5906d0be79c9,6dabeca2-327d-423e-800f-01e21714e379,2023-04-26,C19,Adenocarcinoma,Colorectal Cancer
+b671205d-478b-46ae-9d0f-7406be4b3526,566f4d07-4c89-48c2-a831-470d63bf8ad5,2021-11-24,C20.9,Adenocarcinoma,Colorectal Cancer
+ac75ee65-1646-43e0-82ef-aa39b161df66,df9c3dbe-ac9a-438d-b8e7-75bdc5293932,2022-07-10,C20.9,Adenocarcinoma,Colorectal Cancer
+e9f96df5-11a4-4118-8ff2-5993c1790bb3,a6c040d6-ef1a-4f5c-bfef-743ed45197a7,2020-04-09,C18.7,Adenocarcinoma,Colorectal Cancer
+2e11246e-5eb1-4f15-87f5-475bffeff16e,21919e3b-28fc-4fb8-b6ab-60e10e67dbcb,2019-08-27,C18.7,Adenocarcinoma,Colorectal Cancer
+8cdab222-e98f-4dc8-9c50-b3776c22f862,5dd4b87b-578b-41e7-8458-b00202046178,2020-05-30,C20.9,Adenocarcinoma,Colorectal Cancer
+34daeb7a-bb97-4fb0-8794-3cad3c2df22f,7d2cf030-534e-498f-9e34-435f12286b05,2023-05-30,C19,Adenocarcinoma,Colorectal Cancer
+3af844a9-5b7b-4069-8769-a678d02aa186,ae5ea543-6a64-45e3-9c25-d0482fe9dd31,2018-10-14,C19,Adenocarcinoma,Colorectal Cancer
+3881334e-ed8c-482c-8668-1ace385be1c2,4d22fb37-9a09-4cae-a66d-0dc60b9100f5,2021-03-26,C18.7,Adenocarcinoma,Colorectal Cancer
+c85f7c8e-4e33-41ec-8bd3-e52e00d6fa8a,5612cada-5eef-401e-988b-4a1456549293,2019-02-22,C19,Adenocarcinoma,Colorectal Cancer
+5711f7cb-f4ba-4b4b-996a-2a1d0522c753,3529cb2d-b51b-4a70-9793-1432d26a2ab4,2022-08-14,C20.9,Adenocarcinoma,Colorectal Cancer
+46af3c82-935b-490a-9029-94b6755ad826,fcbbbcf3-d808-4530-9235-cde2f5d574eb,2018-12-30,C18.7,Adenocarcinoma,Colorectal Cancer
+ee359b47-b672-4ff1-b264-a31e82421402,9738c7de-be47-47ca-8f4d-9638def0e9ab,2020-05-24,C18.7,Adenocarcinoma,Colorectal Cancer
+beb0b7b1-b622-4899-b1a1-47d35e5ee9c3,ff523446-e236-4f1c-a1cf-e25d4fefb6c1,2022-12-17,C19,Adenocarcinoma,Colorectal Cancer
+87f29607-72a4-4f28-9d8a-1898d44ca4e0,8853f224-9c83-4949-a336-236accebd64a,2018-07-18,C20.9,Adenocarcinoma,Colorectal Cancer
+3c228789-f9e0-40fa-999d-df2cd45d15f7,92a30763-a565-4ef0-9429-b0f9c162f2f8,2018-04-20,C19,Adenocarcinoma,Colorectal Cancer
+5a2f88fa-e00d-4a9a-a380-ac2862cbb8c6,5e26dbe7-9eab-4a63-8d84-c36d0f738c9d,2018-11-17,C19,Adenocarcinoma,Colorectal Cancer
+b4f017c4-07c6-45b9-a19b-bf4da922088c,2608ed73-27f7-43d7-8c73-118a459b8ea3,2021-05-03,C56.9,Serous Carcinoma,Ovarian Cancer
+e13e5d17-cae9-4222-bdd3-6883ac6a0879,ebcfc293-fbb7-4526-a70f-eab52eef8b90,2021-11-16,C56.9,Serous Carcinoma,Ovarian Cancer
+9526e6c1-d5c4-4b10-8cb7-387011380d0a,abc01989-0f49-46ab-bd19-2b26802af35c,2018-04-18,C56.9,Serous Carcinoma,Ovarian Cancer
+553730f4-d1d4-4aa3-ab7c-7dbba7e198c3,bd748bc7-98fd-46b8-841b-055829460702,2018-08-21,C56.9,Serous Carcinoma,Ovarian Cancer
+86c4e9bd-bbd2-44de-806a-d2c2b0adc0de,7a119437-b97f-43c2-88a3-7698956d9076,2018-07-06,C56.9,Serous Carcinoma,Ovarian Cancer
+ac04eece-02cb-4e07-938a-5f7392c9dac7,64794457-25d9-4838-8685-03d18810f3a8,2021-11-06,C56.9,Serous Carcinoma,Ovarian Cancer
+2fe9c029-9bc6-4381-a656-feec076927a5,c87fe530-de1c-4f18-aa6c-933fe87f6efc,2020-03-24,C56.9,Serous Carcinoma,Ovarian Cancer
+f39cc07c-c674-41df-bacd-eae1830af6af,2b877cf5-ecd8-4dfd-ad84-f2067813b5d1,2021-10-06,C56.9,Serous Carcinoma,Ovarian Cancer
+6ba19db9-8633-47e8-938c-fad9b9c93a3c,ac2c65f9-9589-4fc0-a6e3-5a6b504553ad,2021-05-24,C56.9,Serous Carcinoma,Ovarian Cancer
+811a6d66-e383-4691-98f7-05f0cf0ecf87,db4b25be-5fe2-49c3-9da3-1bcdafc46972,2020-12-30,C56.9,Serous Carcinoma,Ovarian Cancer
+33238b5f-aecf-459c-8a41-35c04a06923f,c4d1120a-e3a4-4119-8d3a-e946d551d9ae,2022-02-22,C56.9,Serous Carcinoma,Ovarian Cancer
+6cf3c1fe-fe47-4f00-a7e3-d917d240ce64,6782fdb4-52a6-483a-a381-c099b24cd8d3,2018-08-10,C56.9,Serous Carcinoma,Ovarian Cancer
+a95b8025-5963-4050-8951-afb0e96c834b,95ad2955-9f86-4972-a6e4-55f535380a24,2018-09-27,C56.9,Serous Carcinoma,Ovarian Cancer
+ef3da4c8-791a-434f-ae44-f2ee6a9f173a,7ac0f551-1ba0-4188-af71-6749434816a1,2022-01-23,C56.9,Serous Carcinoma,Ovarian Cancer
+8f759766-8082-47b7-bb07-4a63caae48af,50f46593-88f0-45e3-af4d-7c20f7cb65d3,2018-02-18,C56.9,Serous Carcinoma,Ovarian Cancer
+58f1c2c0-5461-438e-a90d-b85ca7d91a27,04aa25ae-8b05-47bd-883b-3710bc22d41c,2023-05-02,K57.3,,Diverticulitis
+96778e71-171e-4059-85a2-d841cd8e2609,39698966-e66f-4e4e-af92-450c36013474,2021-08-06,C50.9,Ductal Carcinoma,Breast Cancer
+6fc34ee7-37b1-4ca3-873c-c761c3837ed6,4ec73161-b8fe-49d9-96fd-db9b8bd66214,2023-11-15,C16.9,Adenocarcinoma,Stomach Cancer
+48157778-5753-4986-806b-720304f93504,598c4128-833e-4a99-8554-b4a6f3f371b5,2021-06-20,C22.0,Hepatocellular Carcinoma,Liver Cancer
+d163f36c-35ee-40bd-a753-90df67872396,29941f6c-477e-4b44-96dd-0b707429b9f9,2018-11-06,D25.9,Leiomyoma,Uterine Fibroid
+256e526c-fae0-4c88-9b9f-8db545e7671e,3a5b4e98-aff3-49d5-ad99-75f863c8bd2b,2023-01-13,C16.9,Adenocarcinoma,Stomach Cancer
+4b3ecbfb-d09f-4c18-bc10-a869a7bb7c78,a2adcb60-f301-43eb-9a38-2129cd065e0c,2022-03-11,C16.9,Adenocarcinoma,Stomach Cancer
+6d55d18b-e3b1-45a4-be0d-35d64d0dee24,63b1bec0-34a1-45d9-9854-cd76be27dac7,2023-03-16,C22.0,Hepatocellular Carcinoma,Liver Cancer
+567fe15c-af6f-463a-a79a-1f3b4779c55a,3ded9c44-72af-4d1d-a408-bc810e25556a,2020-06-10,K57.3,,Diverticulitis
+b894dba6-7b49-4a34-87c5-042e151d7bf3,8203a861-1d77-4903-83d7-bfc10ccdcc1b,2018-04-27,D25.9,Leiomyoma,Uterine Fibroid
+8405ec9a-28e2-4dd6-bf88-2f98d1f53f06,66b539ae-ec29-49ba-a266-4ecc005db583,2022-12-15,C61,Adenocarcinoma,Prostate Cancer
+4a6fe220-d343-429a-9b8a-2969dd583c96,1c62ae46-9a9d-4385-89b8-4f36b74d616d,2023-01-07,D25.9,Leiomyoma,Uterine Fibroid
+fe6c62b0-958d-47e1-8d51-9f6b5be1761d,7e31c93f-3914-47d7-871d-98c4d037891a,2022-08-12,C50.9,Ductal Carcinoma,Breast Cancer
+dc2ac041-2f80-47c1-93d5-3773b15b532d,97622eb6-92b4-4870-9724-492a9de667dc,2018-09-02,C50.9,Ductal Carcinoma,Breast Cancer
+c515e57f-7e2a-4cda-8a7d-540288646f5b,d84b9537-980c-447c-9a30-247a2e7e4d2e,2020-02-11,C50.9,Ductal Carcinoma,Breast Cancer
+ac99d618-ec5a-4984-8fdf-054ba26e53e9,22854a56-066e-4ceb-9483-636ee861f1e0,2018-07-07,K57.3,,Diverticulitis
+8a8f4aa4-1090-46da-b82c-b9796f7f7cc6,0c993843-43ec-452f-b0dd-15cd485cfb8b,2018-11-27,C50.9,Ductal Carcinoma,Breast Cancer
+599ff4db-fd49-489c-be17-85459e02da33,3dfffc34-0de0-4c64-9a33-40377fbbc958,2022-09-13,C22.0,Hepatocellular Carcinoma,Liver Cancer
+a88644ef-5fb7-4726-8aaf-bfaa02cf13f7,8710d94d-3914-4f30-ab47-0bbc1577d1c8,2019-07-18,K57.3,,Diverticulitis
+fa544adb-093c-467e-8637-311773cbb1f9,d5b6363d-6611-4df4-bc88-19312f9724d0,2022-03-18,C50.9,Ductal Carcinoma,Breast Cancer
+08165ccc-58a0-415f-a4be-235172fe5eda,6b672dba-4181-44d8-9a74-62750fe51a3d,2018-04-28,C22.0,Hepatocellular Carcinoma,Liver Cancer
+e6cd95ab-bd41-44c5-bbea-359d0853b709,37fc7d05-5639-4538-8685-e73a42227abf,2018-02-26,C22.0,Hepatocellular Carcinoma,Liver Cancer
+40ad844a-85d3-4378-89bf-dd96769a2cd0,a8de867a-b68a-484e-9ce3-5246626578fc,2023-05-09,C22.0,Hepatocellular Carcinoma,Liver Cancer
+06479ff2-c2bb-4006-9b37-c8fe0f97aca8,8b3d2edc-5937-4da4-9c27-a9291351c7dd,2023-02-24,C50.9,Ductal Carcinoma,Breast Cancer
+7abc90d5-d23f-4e9f-ad83-2b83fd6d3f88,5af6f483-9819-4f85-881f-488b497155e4,2018-10-31,C22.0,Hepatocellular Carcinoma,Liver Cancer
+af735c44-f403-4851-ba85-3c692d3a97b6,fc306e41-c606-4ecf-9a71-b06cd3dc5c7d,2023-03-01,C61,Adenocarcinoma,Prostate Cancer
+75d5d3d2-a615-44db-9f87-05486122f748,5bc29300-0b26-40f7-a3bc-afdd3cacf309,2019-12-01,C61,Adenocarcinoma,Prostate Cancer
+d6c1e3bd-05db-4242-926e-e511a833547c,35026134-5784-4461-b731-ef41f720e5f0,2019-01-29,C16.9,Adenocarcinoma,Stomach Cancer
+9faad95e-8d04-4872-9121-c8e700678e5f,bf4648eb-943e-4a67-8e28-4c7e11597f03,2019-08-09,C50.9,Ductal Carcinoma,Breast Cancer
+45868b07-889f-415a-8c20-4a873c698e08,f981f15e-078f-41d4-893e-acd8a3de2932,2021-12-07,C61,Adenocarcinoma,Prostate Cancer
+e969ec43-148d-4e43-a062-fc33206b45d6,0c97a93a-bd1a-4058-989b-12b3e0827463,2018-09-03,C22.0,Hepatocellular Carcinoma,Liver Cancer
+32ca7e1e-38b8-46aa-b802-1a758544d98b,2f92d21b-4334-4b39-ae81-052c19aa2990,2018-12-24,K57.3,,Diverticulitis
+177352f2-6915-4de8-acb1-6e59d2ef1803,2f78e953-eb4d-4440-bf07-9c0f6978326e,2022-09-02,C61,Adenocarcinoma,Prostate Cancer
+e9cd9d16-545e-426e-9d05-c9104c95ed09,56475e75-2d1d-4a85-841b-5d3553ad1568,2021-07-04,K57.3,,Diverticulitis
+72a4480a-29f2-430a-a02e-da1a918c4758,8482b26f-431e-4f4e-bb6a-d22837b77691,2022-11-05,C16.9,Adenocarcinoma,Stomach Cancer
+0d4d4689-005f-4dd3-b850-96440fb794a3,dfd9fafd-2060-4ecc-abb3-2429bd994b1d,2019-08-15,C16.9,Adenocarcinoma,Stomach Cancer
+29ffe8a9-69a8-4d3e-864a-08ad88864d37,6a3b8075-d64d-4573-8037-fa574120fcd8,2018-10-14,C22.0,Hepatocellular Carcinoma,Liver Cancer
