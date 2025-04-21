@@ -76,5 +76,6 @@ venv.bak/
 # Other
 .DS_Store
 Thumbs.db
+data/biomarkers.csv
 *.csv
 *.csv
