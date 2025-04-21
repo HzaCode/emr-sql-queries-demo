@@ -71,8 +71,7 @@ venv.bak/
 *.sqlite
 *.sqlite3
 
-
- data/*.csv
+*.csv
 
 # Other
 .DS_Store
