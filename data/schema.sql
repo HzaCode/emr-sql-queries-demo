@@ -9,79 +9,84 @@ DROP TABLE IF EXISTS Diagnoses;
 DROP TABLE IF EXISTS Patients;
 
 CREATE TABLE Patients (
-    patient_id VARCHAR(36) PRIMARY KEY,
+    patient_id VARCHAR(36) PRIMARY KEY,  -- PK
     first_name VARCHAR(100),
     last_name VARCHAR(100),
     birth_date DATE,
-    sex VARCHAR(10)
+    sex VARCHAR(10)                      -- M/F/etc
 );
 
 CREATE TABLE Diagnoses (
-    diagnosis_id VARCHAR(36) PRIMARY KEY,
-    patient_id VARCHAR(36) REFERENCES Patients(patient_id),
+    diagnosis_id VARCHAR(36) PRIMARY KEY, -- PK
+    patient_id VARCHAR(36) REFERENCES Patients(patient_id), -- FK to Patients
     diagnosis_date DATE,
-    icd10_code VARCHAR(10),
-    histology VARCHAR(100),
-    diagnosis_description VARCHAR(255)
+    icd10_code VARCHAR(10),               -- ICD-10 code
+    histology VARCHAR(100),               -- e.g., Adenocarcinoma
+    diagnosis_description VARCHAR(255)    -- Description text
 );
 
 CREATE TABLE Staging (
-    staging_id VARCHAR(36) PRIMARY KEY,
-    diagnosis_id VARCHAR(36) REFERENCES Diagnoses(diagnosis_id),
-    staging_system VARCHAR(50), -- TNM, FIGO, etc.
-    t_stage VARCHAR(10),
-    n_stage VARCHAR(10),
-    m_stage VARCHAR(10),
-    overall_stage VARCHAR(10), -- Clinical Stage (e.g., IIIa, IVb)
+    staging_id VARCHAR(36) PRIMARY KEY,  -- PK
+    diagnosis_id VARCHAR(36) REFERENCES Diagnoses(diagnosis_id), -- FK to Diagnoses
+    staging_system VARCHAR(50),          -- e.g., AJCC TNM 8th
+    t_stage VARCHAR(10),                 -- T stage
+    n_stage VARCHAR(10),                 -- N stage
+    m_stage VARCHAR(10),                 -- M stage
+    overall_stage VARCHAR(10),           -- e.g., IIIa, IVb
     staging_date DATE
 );
 
 CREATE TABLE Biomarkers (
-    biomarker_id VARCHAR(36) PRIMARY KEY,
-    patient_id VARCHAR(36) REFERENCES Patients(patient_id),
+    biomarker_id VARCHAR(36) PRIMARY KEY, -- PK
+    patient_id VARCHAR(36) REFERENCES Patients(patient_id), -- FK to Patients
     test_date DATE,
-    marker_name VARCHAR(100), -- e.g., EGFR Mutation, PD-L1 TPS
-    marker_result VARCHAR(100), -- e.g., Exon 19 Deletion, Positive, 50%, G12C
-    specimen_source VARCHAR(100)
+    marker_name VARCHAR(100),            -- e.g., EGFR, PDL1
+    marker_result VARCHAR(100),          -- e.g., Exon 19 Del, Pos, 50%
+    specimen_source VARCHAR(100)         -- e.g., Tissue, Blood
 );
 
 CREATE TABLE Medications (
-    medication_id VARCHAR(36) PRIMARY KEY,
-    patient_id VARCHAR(36) REFERENCES Patients(patient_id),
-    medication_name VARCHAR(150), -- e.g., Osimertinib, FOLFOX (might represent regimen intent here)
-    drug_class VARCHAR(100), -- e.g., Targeted Therapy, Chemotherapy
+    medication_id VARCHAR(36) PRIMARY KEY, -- PK
+    patient_id VARCHAR(36) REFERENCES Patients(patient_id), -- FK to Patients
+    medication_name VARCHAR(150),        -- Drug name or regimen (e.g., Osimertinib, FOLFOX)
+    drug_class VARCHAR(100),             -- e.g., TKI, Chemo
     start_date DATE,
-    end_date DATE, -- NULL if ongoing
-    treatment_line INTEGER, -- 1, 2, 3...
-    status VARCHAR(50) -- Active, Completed, Stopped
+    end_date DATE,                       -- NULL = ongoing
+    treatment_line INTEGER,              -- 1=1st line, 2=2nd...
+    status VARCHAR(50)                   -- Active/Completed/Stopped
 );
 
 CREATE TABLE MedicationAdministrations (
-    admin_id VARCHAR(36) PRIMARY KEY,
-    patient_id VARCHAR(36) REFERENCES Patients(patient_id),
-    medication_name VARCHAR(150), -- Specific drug administered, e.g., Oxaliplatin
-    administration_date DATETIME, -- Use DATETIME if time matters, else DATE
+    admin_id VARCHAR(36) PRIMARY KEY,    -- PK
+    patient_id VARCHAR(36) REFERENCES Patients(patient_id), -- FK to Patients
+    medication_name VARCHAR(150),        -- Specific drug given (e.g., Oxaliplatin)
+    administration_date DATETIME,        -- Date & Time administered
     dose REAL,
-    unit VARCHAR(50) -- e.g., mg, mg/m2
+    unit VARCHAR(50)                     -- e.g., mg, mg/m2
 );
 
 CREATE TABLE LabResults (
-    lab_id VARCHAR(36) PRIMARY KEY,
-    patient_id VARCHAR(36) REFERENCES Patients(patient_id),
-    test_name VARCHAR(100), -- e.g., CA-125, Creatinine
-    loinc_code VARCHAR(20), -- Optional standard code
-    result_value REAL, -- Use REAL or NUMERIC for lab values
+    lab_id VARCHAR(36) PRIMARY KEY,      -- PK
+    patient_id VARCHAR(36) REFERENCES Patients(patient_id), -- FK to Patients
+    test_name VARCHAR(100),              -- e.g., CA-125
+    loinc_code VARCHAR(20),              -- LOINC (optional)
+    result_value REAL,                   -- The number
     unit VARCHAR(50),
-    result_datetime DATETIME, -- Use DATETIME for precise timing
+    result_datetime DATETIME,            -- Date & Time of result
     reference_range_low REAL,
-    reference_range_high REAL
+    reference_range_high REAL            -- ULN (Upper Limit of Normal)
 );
 
--- Optional: Add indexes for faster joins on foreign keys and common filter columns
+-- Indexes for faster joins/filters
 CREATE INDEX idx_diag_patient ON Diagnoses(patient_id);
 CREATE INDEX idx_stage_diag ON Staging(diagnosis_id);
 CREATE INDEX idx_biomarker_patient ON Biomarkers(patient_id);
 CREATE INDEX idx_med_patient ON Medications(patient_id);
 CREATE INDEX idx_medadmin_patient ON MedicationAdministrations(patient_id);
 CREATE INDEX idx_lab_patient ON LabResults(patient_id);
-CREATE INDEX idx_lab_test_time ON LabResults(patient_id, test_name, result_datetime);
+CREATE INDEX idx_lab_test_time ON LabResults(patient_id, test_name, result_datetime); -- For time series labs
+
+-- More indexes? Maybe later if slow on big data:
+-- CREATE INDEX idx_diag_code_hist ON Diagnoses(icd10_code, histology);
+-- CREATE INDEX idx_med_line ON Medications(treatment_line);
+-- CREATE INDEX idx_biomarker_name ON Biomarkers(marker_name);

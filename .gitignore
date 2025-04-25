@@ -1,9 +1,11 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution / packaging
+tests/__pycache__/
+
+*.so
+
 .Python
 build/
 develop-eggs/
@@ -24,17 +26,12 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# PyInstaller
-# Usually these files are written by a pyinstaller script; adding them
-# here helps prevent them from accidentally being committed.
 *.manifest
 *.spec
 
-# Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -49,33 +46,23 @@ coverage.xml
 .pytest_cache/
 cover/
 
-# Environments
 .env
 .venv
-venv/
-env/
 ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
 .spyderproject
 .spyderworkspace
 
-# VSCode specific
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
-# SQLite databases
-*.db
-*.db-journal
-*.sqlite
-*.sqlite3
+results/
 
-*.csv
-
-# Other
 .DS_Store
 Thumbs.db
-data/biomarkers.csv
-*.csv
-*.csv
